@@ -1,5 +1,5 @@
 const yearElement = document.getElementById('year');
-if (yearElement) yearElement.textContent = new Date().getFullYear().toString();
+if (yearElement) yearElement.textContent = new Date().getFullYear();
 
 const revealElements = document.querySelectorAll('.reveal');
 const skillBars = document.querySelectorAll('.skill-bar span');
@@ -32,3 +32,21 @@ const skillObserver = new IntersectionObserver(
 );
 
 skillBars.forEach(bar => skillObserver.observe(bar));
+
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-links a");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach(sec => {
+    const top = sec.offsetTop - 120;
+    if (scrollY >= top) current = sec.getAttribute("id");
+  });
+
+  navLinks.forEach(a => {
+    a.classList.remove("active");
+    if (a.getAttribute("href") === `#${current}`) {
+      a.classList.add("active");
+    }
+  });
+});
