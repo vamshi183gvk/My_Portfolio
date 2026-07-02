@@ -1,14 +1,12 @@
-# Vamshi Krishna Portfolio
+# 🌐 Vamshi Krishna Portfolio
 
-Welcome to my personal portfolio website. This portfolio showcases my professional experience, technical skills, and frontend development projects.
+Welcome to my personal portfolio website.
+
+This portfolio showcases my experience, technical skills, and projects as a Frontend Developer.
 
 ## 🚀 Live Demo
 
 https://vamshi183gvk.github.io/My_Portfolio/
-
-## 👨‍💻 About
-
-Frontend Developer with 3.3 years of experience building responsive and scalable web applications using React.js and modern JavaScript.
 
 ## ✨ Features
 
@@ -16,17 +14,18 @@ Frontend Developer with 3.3 years of experience building responsive and scalable
 - About Me
 - Technical Skills
 - Professional Experience
-- Featured Projects
+- Projects
 - Contact Section
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6+)
 - Bootstrap
+- GitHub Pages
 
-## 📂 Project Structure
+## 📁 Folder Structure
 
 ```
 assets/
@@ -34,9 +33,19 @@ projects/
 index.html
 styles.css
 script.js
+README.md
 ```
+
+## 💻 Run Locally
+
+```bash
+git clone https://github.com/vamshi183gvk/portfolio.git
+cd portfolio
+```
+
+Open `index.html` in your browser.
 
 ## 📬 Contact
 
-- LinkedIn: (Your LinkedIn)
+- LinkedIn: https://linkedin.com/in/vamsi-krishna-goddendla
 - Portfolio: https://vamshi183gvk.github.io/My_Portfolio/
